@@ -1,0 +1,7 @@
+For the manual implementation I choosed the Eigen decomposition .The eigenvectors are sorted from largest to
+smallest eigenvalue, and only the top two are kept. The data is then projected onto this
+two directions, reducing it from four dimensions down to two. 
+The reason for it was to display the data in a scatter plot.
+
+Analysis of the output of the graphs  
+All three plots agree on the two main clusters: a large group of low-yield countries mostly from Africa and South America (blue), and a high-yield, high-pesticide group mostly from Europe and Asia (red).The most noticeable difference is that when trying to run the test in 2010 the 4D plot showed only Asian countries in green while the 2D PCA and the manual PCA included in the green besides asia , africa and south America.
