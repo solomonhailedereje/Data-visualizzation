@@ -1,2 +1,2 @@
 # Data-visualizzation
-differnt data visualizzation techniques implemented 
+different data visualizzation techniques implemented 
